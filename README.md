@@ -1,12 +1,27 @@
 # simple_chatbot_for_reccomendation
-  HOW TO RUN THE APP:
-  '''1. clone the repository "https://github.com/aframahendrap/simple_chatbot_for_reccomendation.git"'''
-  '''2. change the directory "cd simple_chatbot_for_reccomendation"'''
-  '''3. make and activate the environment
-     python -m venv venv
-    .\venv\Scripts\activate'''
-  '''4. make the .env for the google_api_key or you can just download it in this repository'''
-  '''5. install the depedencies
-     pip install -r requirements.txt'''
-  '''6. run the app using this command "uvicorn main:app --reload"'''
-  '''7. open the fastapi app in this address "http://127.0.0.1:8000/docs"'''
+## How to Run the App
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/aframahendrap/simple_chatbot_for_reccomendation.git
+
+2. **Change into this directory**
+    ```bash
+   cd simple_chatbot_for_reccomendation
+4. **Create and activate the virtual environment**
+    ```bash
+   python -m venv venv
+   # On Windows
+   .\venv\Scripts\activate
+   # On macOS/Linux
+   source venv/bin/activate
+5. **Set the .env file or you can copy the .env file in this repository**
+6. **Install depedencies**
+    ```bash
+   pip install -r requirements.txt
+7. **Run the main.py file**
+   ```bash
+   uvicorn main:app --reload
+8. **Open the FASTAPI app using your browser**
+   ```bash
+   http://127.0.0.1:8000/docs
